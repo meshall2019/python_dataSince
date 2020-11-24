@@ -1,0 +1,6 @@
+Passenger-id,Survived,Pclass,Name ,Sex,Age,SibSp,Parch,Ticket,Fare,cabin,Embarked
+1,0,3,"Braund,Mr Owen",male,22,1,0,A/5 21172,7.35,NaN,S
+2,1,1,"Cuming, Mr Jon",female,28,1,0,PC 17599,71.2833,C85,C
+3,1,3,"Kellinen,Miss Laina",female,26,0,0,"STON/o2,3101282",7.925,NaN,S
+4,1,1,"Futrelle, Mrs Jacques",female,35,1,0,113803,53.1,C123,S
+5,0,3,"Allen, Mr willian",male,35,0,0,373450,8.05,Nan,S
