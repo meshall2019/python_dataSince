@@ -114,7 +114,7 @@ def compare_distributions_of_numericalVariables():
     visualizer.transform(X)  # Transform the data
     visualizer.poof()  # Draw/show/poof the data
 
-    ask=input("Want to know how survival rates differ across percentages..?: yes or no")
+
 
 #Explin how did they differ across our categorical variables? We can get a sense of this by creating faceted stacked barplots for each variable.
 def stacked_barplots_for_eachVariable():
@@ -166,7 +166,7 @@ def stacked_barplots_for_eachVariable():
     axes[1, 0].tick_params(axis='both', labelsize=15)
     axes[1, 0].legend((p5[0], p6[0]), ('Survived', 'Not-survived'), fontsize=15)
 
-plt.show()
+
 def EDA():#exploratory data analysis
 
     print("1.The disension of the table")
@@ -204,5 +204,29 @@ def figures_EDA():#The figures of The figures of exploratory data analysis
         stacked_barplots_for_eachVariable()
     else:
         print("Enter the correct number")
-plt.show()
+
+
+
+
+try:#Run the Program
+
+        print("1.The exploratory data analysis")
+        print("2.The figures of exploratory data analysis")
+        print("*******-Enter 0 to exit-*******")
+        user_option=int(input("Emter your option number: "))
+        if user_option==1:
+            EDA()
+
+        elif user_option==2:
+            figures_EDA()
+            plt.show()
+        else:
+            print("please enter the correct number!!!")
+
+
+except:
+        print("There is a problem")
+
+
+
 
